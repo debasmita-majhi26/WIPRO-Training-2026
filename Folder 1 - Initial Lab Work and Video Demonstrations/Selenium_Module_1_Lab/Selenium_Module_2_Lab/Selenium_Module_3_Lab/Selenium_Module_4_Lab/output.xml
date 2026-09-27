@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 7.5 (Python 3.13.15 on win32)" generated="2026-09-26T14:32:14.764092" rpa="false" schemaversion="5">
+<suite id="s1" name="Experiment 4 8" source="C:\Users\debas\OneDrive\Desktop\Selenium_Module_4_Lab\experiment_4_8.robot">
+<test id="s1-t1" name="Verify Home Page Using Resource Keywords" line="8">
+<kw name="Open Application" owner="resources" type="SETUP">
+<kw name="Open Browser" owner="SeleniumLibrary">
+<msg time="2026-09-26T14:32:15.080755" level="INFO">Opening browser 'Chrome' to base url 'https://automationexercise.com'.</msg>
+<arg>${URL}</arg>
+<arg>${BROWSER}</arg>
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<status status="PASS" start="2026-09-26T14:32:15.080563" elapsed="24.569778"/>
+</kw>
+<kw name="Maximize Browser Window" owner="SeleniumLibrary">
+<doc>Maximizes current browser window.</doc>
+<status status="PASS" start="2026-09-26T14:32:39.651204" elapsed="0.070969"/>
+</kw>
+<status status="PASS" start="2026-09-26T14:32:15.079956" elapsed="24.642543"/>
+</kw>
+<kw name="Verify Home Page" owner="resources">
+<kw name="Wait Until Page Contains" owner="SeleniumLibrary">
+<arg>Automation Exercise</arg>
+<arg>20s</arg>
+<doc>Waits until ``text`` appears on the current page.</doc>
+<status status="PASS" start="2026-09-26T14:32:39.724204" elapsed="0.036765"/>
+</kw>
+<kw name="Log" owner="BuiltIn">
+<msg time="2026-09-26T14:32:39.763260" level="INFO">Home page verified successfullydone</msg>
+<arg>Home page verified successfullydone</arg>
+<doc>Logs the given message with the given level.</doc>
+<status status="PASS" start="2026-09-26T14:32:39.761753" elapsed="0.001709"/>
+</kw>
+<status status="PASS" start="2026-09-26T14:32:39.723321" elapsed="0.040400"/>
+</kw>
+<kw name="Capture Page Screenshot" owner="SeleniumLibrary">
+<msg time="2026-09-26T14:32:40.019548" level="INFO" html="true">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="screenshots/Experiment_4_8_Result.png"&gt;&lt;img src="screenshots/Experiment_4_8_Result.png" width="800px"&gt;&lt;/a&gt;</msg>
+<arg>C:\\Users\\debas\\OneDrive\\Desktop\\Selenium_Module_4_Lab${/}screenshots${/}Experiment_4_8_Result.png</arg>
+<doc>Takes a screenshot of the current page and embeds it into a log file.</doc>
+<status status="PASS" start="2026-09-26T14:32:39.764876" elapsed="0.254922"/>
+</kw>
+<kw name="Close Application" owner="resources" type="TEARDOWN">
+<kw name="Close All Browsers" owner="SeleniumLibrary">
+<doc>Closes all open browsers and resets the browser cache.</doc>
+<status status="PASS" start="2026-09-26T14:32:40.021751" elapsed="2.636808"/>
+</kw>
+<status status="PASS" start="2026-09-26T14:32:40.020935" elapsed="2.637822"/>
+</kw>
+<status status="PASS" start="2026-09-26T14:32:15.079312" elapsed="27.579708"/>
+</test>
+<status status="PASS" start="2026-09-26T14:32:14.767708" elapsed="27.892274"/>
+</suite>
+<statistics>
+<total>
+<stat pass="1" fail="0" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat name="Experiment 4 8" id="s1" pass="1" fail="0" skip="0">Experiment 4 8</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>
