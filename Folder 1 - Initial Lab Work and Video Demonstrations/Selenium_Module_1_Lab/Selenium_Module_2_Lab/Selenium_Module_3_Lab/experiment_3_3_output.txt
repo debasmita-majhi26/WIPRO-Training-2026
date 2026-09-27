@@ -1,0 +1,10 @@
+
+Status Code: 201
+
+Response Headers:
+{'Date': 'Sat, 26 Sep 2026 05:56:24 GMT', 'Content-Type': 'application/json; charset=utf-8', 'Content-Length': '96', 'Connection': 'keep-alive', 'access-control-allow-credentials': 'true', 'access-control-expose-headers': 'Location', 'Cache-Control': 'no-cache', 'etag': 'W/"60-hidyUWcbc9isBSG0GkaGRMyyQm8"', 'expires': '-1', 'location': 'https://jsonplaceholder.typicode.com/posts/101', 'nel': '{"report_to":"heroku-nel","response_headers":["Via"],"max_age":3600,"success_fraction":0.01,"failure_fraction":0.1}', 'pragma': 'no-cache', 'report-to': '{"group":"heroku-nel","endpoints":[{"url":"https://nel.heroku.com/reports?s=2UVIIM4aopRNGQYJoc8rdu3cIQqoVeqaekiFK1S07hk%3D\\u0026sid=e11707d5-02a7-43ef-b45e-2cf4d2036f7d\\u0026ts=1790402184"}],"max_age":3600}', 'reporting-endpoints': 'heroku-nel="https://nel.heroku.com/reports?s=2UVIIM4aopRNGQYJoc8rdu3cIQqoVeqaekiFK1S07hk%3D&sid=e11707d5-02a7-43ef-b45e-2cf4d2036f7d&ts=1790402184"', 'Server': 'cloudflare', 'vary': 'Origin, X-HTTP-Method-Override, Accept-Encoding', 'via': '2.0 heroku-router', 'x-content-type-options': 'nosniff', 'x-powered-by': 'Express', 'x-ratelimit-limit': '1000', 'x-ratelimit-remaining': '999', 'x-ratelimit-reset': '1790402186', 'cf-cache-status': 'DYNAMIC', 'CF-RAY': 'a4100675b9de318e-BOM', 'alt-svc': 'h3=":443"; ma=86400'}
+
+Response JSON:
+{'title': 'Python API Test', 'body': 'This is a POST request', 'userId': 1, 'id': 101}
+
+POST Request Validation: PASSED

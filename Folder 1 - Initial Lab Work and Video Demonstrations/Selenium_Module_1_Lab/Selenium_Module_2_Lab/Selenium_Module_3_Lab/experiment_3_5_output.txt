@@ -1,0 +1,10 @@
+
+Status Code: 200
+
+Session Cookies:
+<RequestsCookieJar[<Cookie student=module3 for httpbin.org/>]>
+
+Cookie Value:
+module3
+
+Session Validation: PASSED

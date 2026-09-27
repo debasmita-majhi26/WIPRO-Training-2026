@@ -1,0 +1,18 @@
+
+PUT REQUEST
+Status Code: 200
+Response: {'id': 1, 'title': 'Updated Title', 'body': 'Updated using PUT', 'userId': 1}
+
+
+PATCH REQUEST
+Status Code: 200
+Response: {'userId': 1, 'id': 1, 'title': 'Partially Updated Title', 'body': 'quia et suscipit\nsuscipit recusandae consequuntur expedita et cum\nreprehenderit molestiae ut ut quas totam\nnostrum rerum est autem sunt rem eveniet architecto'}
+
+
+DELETE REQUEST
+Status Code: 200
+
+
+PUT Validation: PASSED
+PATCH Validation: PASSED
+DELETE Validation: PASSED

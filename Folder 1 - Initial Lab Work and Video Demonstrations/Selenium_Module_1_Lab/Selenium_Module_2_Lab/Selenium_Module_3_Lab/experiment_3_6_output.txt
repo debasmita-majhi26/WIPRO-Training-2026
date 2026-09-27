@@ -1,0 +1,16 @@
+
+API CONFIGURATION
+Base URL: https://jsonplaceholder.typicode.com
+Endpoint: /posts/1
+
+RESPONSE
+Status Code: 200
+User ID: 1
+Title: sunt aut facere repellat provident occaecati excepturi optio reprehenderit
+
+VALIDATION
+Status Code Validation: PASSED
+User ID Validation: PASSED
+
+MySQL Database:
+Database connection concept demonstrated for API data-driven automation.
