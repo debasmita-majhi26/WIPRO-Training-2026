@@ -1,9 +1,10 @@
 # CAPSTONE PROJECT REPORT
 
 **Course : **Capstone Assignment 1**,
-**Project Title**: Web Application Automation Using Selenium WebDriver with Python  
+**Project**: Web Application Automation Using Selenium WebDriver with Python  
 **Target Application**: AutomationExercise (https://automationexercise.com)  
-**Author**: Debasmita Majhi
+**Name**: Debasmita Majhi
+**Enrollment no: 12023002029034
 **Submission Date**: 28.09.26 
 
 ---
