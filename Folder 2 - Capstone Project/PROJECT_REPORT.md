@@ -413,4 +413,4 @@ All **10 official requirements** for **Capstone Assignment 1** have been complet
 9. Modals and ad overlays robustly managed.
 10. Professional, self-contained HTML execution report generated.
 
-The framework adheres to best software engineering practices—clean Page Object Model separation, zero hardcoded waits, idempotent execution, and auditable reporting—making it an exemplary submission for a college capstone project.
+
