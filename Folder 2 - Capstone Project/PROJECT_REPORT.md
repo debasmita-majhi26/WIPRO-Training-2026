@@ -1,10 +1,10 @@
 # CAPSTONE PROJECT REPORT
 
-**Course / Degree**: College Capstone Assignment 1  
+**Course : **Capstone Assignment 1**,
 **Project Title**: Web Application Automation Using Selenium WebDriver with Python  
 **Target Application**: AutomationExercise (https://automationexercise.com)  
-**Author**: College Student  
-**Submission Date**: September 2026  
+**Author**: Debasmita Majhi
+**Submission Date**: 28.09.26 
 
 ---
 
